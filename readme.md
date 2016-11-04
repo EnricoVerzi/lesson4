@@ -7,7 +7,8 @@ Matricola: O55000271
 ----------
 
 
-Progetto 
+Progetto
+---------- 
 
 L'applicazione sviluppata in AngularJs permette la creazione e gestione di task, di seguito
 sono riportate le features aggiunte.
@@ -15,6 +16,7 @@ sono riportate le features aggiunte.
 
 
 Features
+----------
 
 La creazione dei task avviene tramite un form che permette di settare titolo, descrizione,
 priorità, data, stato, tags e tempo stimato per completare il task. Una volta aggiunto il task, esso
@@ -28,6 +30,7 @@ I task nella lista possono essere ordinati per titolo o data ed è presente un a
 per la ricerca di uno specifico task.
 
 Application structure
+----------
 
 app
     components
