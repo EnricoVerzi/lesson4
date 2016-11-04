@@ -1,0 +1,71 @@
+
+<md-dialog>
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Add Task</h2>
+        <span flex></span>
+      </div>
+    </md-toolbar>
+    
+     <md-content layout-padding="">
+      <md-input-container>
+        <label>Title</label>
+        <input type="text" ng-model="ctrl.locals.item.title">
+      </md-input-container>
+
+     <md-input-container class="md-block" flex-gt-xs="">
+            <label>Description</label>
+            <input type="text" ng-model="ctrl.locals.item.description">
+          </md-input-container>
+   
+        <div layout-gt-xs="row">
+           <md-input-container>
+        <label>Priority</label>
+        <input type="number" ng-model="ctrl.locals.item.priority">
+      </md-input-container>
+
+          <md-input-container>
+            <label>Enter date</label>
+            <md-datepicker ng-model="ctrl.locals.item.submissionDate"></md-datepicker>
+          </md-input-container>
+        </div>
+
+        <div layout-gt-sm="row">
+          <md-input-container class="md-block" flex-gt-sm="">
+            <label>Status</label>
+            <input type="text" ng-model="ctrl.locals.item.status">
+          </md-input-container>
+
+          <md-input-container class="md-block" flex-gt-sm="">
+            <label>Tags</label>
+            <input type="text" ng-model="ctrl.locals.item.tags">
+          </md-input-container>
+        </div>
+
+        <md-input-container class="md-block">
+          <label>Estimated Work</label>
+          <input type="number" ng-model="ctrl.locals.item.estimatedWork">
+        </md-input-container>
+
+        <md-dialog-actions layout="row">
+          <span flex></span>
+         
+        <md-button ng-click="ctrl.cancel()">
+                 Cancel
+        </md-button>
+
+        <md-button ng-if="ctrl.locals.addForm" ng-click="ctrl.inputask(ctrl.locals.item.title, ctrl.locals.item.priority, ctrl.locals.item.description, ctrl.locals.item.submissionDate, ctrl.locals.item.status, ctrl.locals.item.tags, ctrl.locals.item.estimatedWork)">
+                  Add
+          </md-button>
+
+        <md-button ng-if="!ctrl.locals.addForm" ng-click="ctrl.updateTask(ctrl.locals.item.title, ctrl.locals.item.priority, ctrl.locals.item.description, ctrl.locals.item.submissionDate, ctrl.locals.item.status, ctrl.locals.item.tags, ctrl.locals.item.estimatedWork)">
+                  Update
+          </md-button>
+            
+
+         <md-dialog-actions>
+    
+     </form>
+  </md-content>
+</md-dialog>
