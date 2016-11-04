@@ -4,7 +4,10 @@
     position: absolute;
     bottom: 30px;
     right: 30px;
+    background: burlywood;
 }
+
+  
 
 md-tabs.md-dynamic-height md-tabs-content-wrapper,
 md-tab-content.md-no-scroll,
@@ -24,5 +27,17 @@ md-tab-content.md-no-scroll>div,
 }
 
 .selected {
-    background: #efefef;
+    background: lightcyan;
+}
+
+
+
+.md-toolbar-tools {
+    background: mediumseagreen;
+}
+
+
+
+md-grid-tile {
+  transition: all 400ms ease-out 50ms; 
 }
