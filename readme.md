@@ -14,31 +14,26 @@ Progetto
 ---------- 
 
 
-L'applicazione sviluppata in AngularJs permette la creazione e gestione di task, di seguito
-sono riportate le features aggiunte.
+
+L'applicazione sviluppata in AngularJs permette la creazione e gestione di task.
+Al progetto iniziale sono state aggiunte diverse features di seguito riportate.
   
 
 
 Features
 ----------
 
-La creazione dei task avviene tramite un form che permette di settare titolo, descrizione,
-priorità, data, stato, tags e tempo stimato per completare il task. Una volta aggiunto il task, esso
-aggiunto alla lista. Tale lista permette di filtrare tra task svolti, da svolgere e totali. 
+La creazione dei task avviene tramite un form che permette di inserire titolo, descrizione,
+priorità, data, stato, tags e tempo stimato per il completamento del task. 
+Una volta aggiunto il task, esso risulta essere presente nella lista. Tale lista permette di filtrare 
+tra task svolti, da svolgere e totali. 
+Ogni task completato è visibile tra i task svolti. Il passaggio del task avviene attraverso una checkbox. 
+La lista contenente i tasks e multi-selezionabile per permettere l'eliminazione multipla dei task,
+ è possibile inoltre modificare un task precedentemente inserito.
+La Navbar dei task permette di scegliere tra diverse viste della lista dei task (List, Card, Grid).
+I task nella lista possono essere ordinati per titolo o data ed è 
+presente un area testo per la ricerca di specifici task.
 
-Ogni task completato è visibile tra i task svolti il passaggio del task avviene attraverso un checkbox. 
-
-
-La creazione dei task avviene tramite un form che permette di settare titolo, descrizione,
-priorità, data, stato, tags e tempo stimato per completare il task. Una volta aggiunto il task, esso viene
-aggiunto alla lista. Tale lista permette di filtrare tra task svolti, da svolgere e totali. 
-
-Ogni task completato è visionabile tra i task svolti il passaggio del task avviene attraverso un checkbox. 
-La lista contenente i task è multi-selezionabile per permettere l'eliminazione multipla dei task,e inoltre possibile
-modificare un task precedentemente inserito.
-La navbar dei task permette di scegliere tra diverse viste della lista dei task (List, Card, Grid).
-I task nella lista possono essere ordinati per titolo o data ed è presente un area testo 
-per la ricerca di uno specifico task.
 
 
     
