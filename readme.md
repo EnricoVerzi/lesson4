@@ -20,7 +20,7 @@ La creazione dei task avviene tramite un form che permette di settare titolo, de
 priorità, data, stato, tags e tempo stimato per completare il task. Una volta aggiunto il task, esso
 aggiunto alla lista. Tale lista permette di filtrare tra task svolti, da svolgere e totali. 
 
-Ogni task completato è visionabile tra i task svolti il passaggio del task avviene attraverso un checkbox. 
+Ogni task completato è visibile tra i task svolti il passaggio del task avviene attraverso un checkbox. 
 La lista contenente i task è multi-selezionabile per permettere l'eliminazione multipla dei task,e inoltre possibile
 modificare un task precedentemente inserito.
 La navbar dei task permette di scegliere tra diverse viste della lista dei task (List, Card, Grid).
